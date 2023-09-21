@@ -1,7 +1,9 @@
 body {
-
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
 }
-
 /* Use of Flexbox to organize elements:
 includes use of justify content AND
 align items
