@@ -4,7 +4,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: rgb(255, 145, 0);
+  background-color: rgb(218, 193, 161);
 }
 .title {
   text-align: center;
@@ -12,7 +12,7 @@ body {
   font-size: 4rem;
   border: 1rem solid;
   margin: 5rem;
-  background-color: orange;
+  background-color: rgb(228, 170, 61);
   font-family: "Courier New", Courier, monospace;
   box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%),
     0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
@@ -32,7 +32,7 @@ body {
   margin: 3rem;
 }
 .card-title {
-  background-color: orange;
+  background-color: rgb(230, 160, 32);
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   font-size: 3rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -49,7 +49,7 @@ body {
 .card-description {
   font-size: 2rem;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-  background-color: orange;
+  background-color: rgb(226, 156, 25);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding: 3%;
   border-radius: 3%;
