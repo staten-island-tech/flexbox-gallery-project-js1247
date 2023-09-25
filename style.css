@@ -19,15 +19,15 @@ body {
 }
 .flex-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
 }
 .card {
   width: 21%;
   height: 55vh;
-  align-items: center;
   display: flex;
+  align-items: center;
   flex-direction: column;
   margin: 3rem;
 }
