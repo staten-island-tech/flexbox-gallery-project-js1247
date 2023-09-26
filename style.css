@@ -55,3 +55,6 @@ body {
   border-radius: 3%;
   border: 1rem ridge rgb(218, 151, 50);
 }
+.card:hover{
+  background-color: blanchedalmond;
+}
