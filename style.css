@@ -56,5 +56,5 @@ body {
   border: 1rem ridge rgb(218, 151, 50);
 }
 .card:hover{
-  background-color: blanchedalmond;
+  transform: scale(1.2);
 }
