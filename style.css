@@ -30,7 +30,7 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 3rem;
-  transition: all .5s;
+  transition: all .5s ease-in-out;
 }
 .card-title {
   background-color: rgb(230, 160, 32);
