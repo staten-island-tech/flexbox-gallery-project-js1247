@@ -30,7 +30,6 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 3rem;
-  transition: all .5s ease-in-out;
 }
 .card-title {
   background-color: rgb(230, 160, 32);
@@ -41,11 +40,13 @@ body {
   padding: 3%;
   border-radius: 50%;
   border: 1rem ridge rgb(255, 166, 0);
+  transition: all .5s ease-in-out;
 }
 .card-image {
   width: 400px;
   height: 200px;
   border: 2rem ridge rgb(216, 147, 44);
+  transition: all .3s;
 }
 .card-description {
   font-size: 2rem;
@@ -56,6 +57,9 @@ body {
   border-radius: 3%;
   border: 1rem ridge rgb(218, 151, 50);
 }
-.card:hover{
+.card-title:hover{
   transform: scale(1.2);
+}
+.card-image:hover{
+  transform: translateY(-1rem);
 }
