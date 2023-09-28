@@ -57,9 +57,30 @@ body {
   border-radius: 3%;
   border: 1rem ridge rgb(218, 151, 50);
 }
-.card-title:hover{
+.card-title:hover {
   transform: scale(1.2);
 }
-.card-image:hover{
+.card-image:hover {
   transform: translateY(-1rem);
+}
+.card-description:hover {
+  transform: skew(3deg, 3deg);
+}
+.title:hover {
+  transform: scale(1.01);
+}
+@media screen and (max-width: 1080px){
+  .card {
+    width: 28%;
+  }
+}
+@media screen and (max-width: 800px){
+  .card {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 400px){
+  .card {
+    width: 100%;
+  }
 }
