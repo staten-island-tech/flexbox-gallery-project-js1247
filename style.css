@@ -12,11 +12,11 @@ body {
   font-size: 4rem;
   border: 1rem solid;
   margin: 5rem;
-  background-color: rgb(228, 170, 61);
+  background-color: rgb(240, 163, 20);
   font-family: "Courier New", Courier, monospace;
   box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%),
     0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
-  animation: animation 5s infinite;
+  animation: animation 2s infinite;
 }
 .flex-container {
   display: flex;
@@ -73,15 +73,19 @@ body {
 @keyframes animation {
   0% {
     transform: scale(1.01);
+    background-color: #f0cb7a;
   }
   25% {
     transform: scale(1.02);
+    background-color: #eec160;
   }
   50% {
     transform: scale(1.03);
+    background-color: #ebb644;
   }
   75% {
     transform: scale(1.04);
+    background-color: #eca814;
   }
   100% {
     transform: scale(1.05);
