@@ -16,6 +16,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%),
     0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
+  animation: animation 3s infinite;
 }
 .flex-container {
   display: flex;
@@ -40,13 +41,13 @@ body {
   padding: 3%;
   border-radius: 50%;
   border: 1rem ridge rgb(255, 166, 0);
-  transition: all .5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .card-image {
   width: 400px;
   height: 200px;
   border: 2rem ridge rgb(216, 147, 44);
-  transition: all .3s;
+  transition: all 0.3s;
 }
 .card-description {
   font-size: 2rem;
@@ -56,30 +57,47 @@ body {
   padding: 3%;
   border-radius: 3%;
   border: 1rem ridge rgb(218, 151, 50);
+  transition: all 0.3s ease-in-out;
 }
 .card-title:hover {
-  transform: scale(1.2);
+  transform: skew(3deg, 3deg);
 }
 .card-image:hover {
   transform: translateY(-1rem);
+  opacity: 0.8;
 }
 .card-description:hover {
-  transform: skew(3deg, 3deg);
+  transform: scale(1.1);
+  background-color: rgb(240, 185, 84);
 }
-.title:hover {
-  transform: scale(1.01);
+@keyframes animation {
+  0% {
+    transform: scale(1.01);
+  }
+  25% {
+    transform: scale(1.02);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  75% {
+    transform: scale(1.04);
+  }
+  100% {
+    transform: scale(1.05);
+  }
 }
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1080px) {
   .card {
     width: 28%;
   }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
   .card {
     width: 40%;
   }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
   .card {
     width: 100%;
   }
